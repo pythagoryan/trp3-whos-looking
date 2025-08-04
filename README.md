@@ -1,4 +1,4 @@
-This mod requires you to enable friendly nameplates.
+This addon requires you to enable friendly nameplates.
 
 Features:
 
