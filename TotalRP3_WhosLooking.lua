@@ -206,6 +206,18 @@ function UpdateDisplay()
             line:Show()
         end
     end
+
+    -- Auto-resize window height to fit visible lines (up to a max)
+    local visibleLines = math.min(#namePool, #frame.lines)
+    local lineHeight = 18 -- Slightly more than font for spacing
+    local headerHeight = 28
+    local bottomPadding = hasRecentPlayers and 30 or 8
+    local minHeight = 100
+    local maxHeight = 400 -- Set your preferred max height
+
+    local neededHeight = headerHeight + bottomPadding + (visibleLines * lineHeight)
+    neededHeight = math.max(minHeight, math.min(neededHeight, maxHeight))
+    frame:SetHeight(neededHeight)
 end
 
 function AddOrUpdatePlayer(realName, displayName, unit, isPlayer)
