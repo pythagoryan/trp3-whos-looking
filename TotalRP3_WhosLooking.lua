@@ -293,9 +293,7 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
     end
 end)
 
--- All keybinding code has been removed.
 SLASH_WHOSLOOKING1 = "/wl"
-SLASH_WHOSLOOKING2 = "/cl"
 SlashCmdList["WHOSLOOKING"] = function(msg)
     msg = msg and msg:lower() or ""
     if msg == "reset" then
@@ -314,4 +312,4 @@ SlashCmdList["WHOSLOOKING"] = function(msg)
     end
 end
 
-print(ADDON_NAME .. " v" .. addon.version .. " loaded.")
+print(ADDON_NAME .. " v" .. addon.version .. " loaded. Made by Woodchippa - Moon Guard. Thank you for your support. <3")
