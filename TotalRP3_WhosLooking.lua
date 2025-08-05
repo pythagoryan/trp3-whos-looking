@@ -4,7 +4,7 @@
 local ADDON_NAME, addon = ...
 local frame = nil
 addon.debugSelf = false
-addon.version = "1.0.0"
+addon.version = "1.2.2"
 
 -- Default settings and saved variables
 WhosLookingDB = WhosLookingDB or {
@@ -314,4 +314,4 @@ SlashCmdList["WHOSLOOKING"] = function(msg)
     end
 end
 
-print(ADDON_NAME .. " v3.0.0 loaded.")
+print(ADDON_NAME .. " v" .. addon.version .. " loaded.")

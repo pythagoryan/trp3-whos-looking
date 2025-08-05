@@ -1,10 +1,10 @@
-## Interface: 110107
+## Interface: 110200
 ## Title: Total RP 3: Who's Looking?
 ## Notes: An extremely lightweight addon that lists all players currently targeting you.
 ## IconTexture: Interface\AddOns\TotalRP3_WhosLooking\icon.blp
 ## Group: totalRP3
 ## Author: Woodchippa - Moon Guard
-## Version: 1.1.0
+## Version: 1.2.2
 ## Dependencies: totalRP3
 ## SavedVariables: WhosLookingDB
 
